@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-int main() {
+int main() 
+{
     char grade;
     printf("Enter your grade (A, B, C, D, or F): ");
     scanf(" %c", &grade);
     
-    switch(grade) {
+    switch(grade) 
+    {
         case 'A':
             printf("Excellent!");
             break;
