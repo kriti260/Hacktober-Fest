@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int main() {
-    int num = 2;
-    switch (num) {
+int main()
+ {
+    int num = 1;
+    switch (num) 
+    {
         case 1:
-            printf("One");
+            printf("\nOne");
         case 2:
-            printf("Two");
+            printf("\nTwo");
         case 3:
-            printf("Three");
+            printf("\nThree");
     }
     return 0;
 }
