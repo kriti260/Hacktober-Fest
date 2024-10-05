@@ -3,10 +3,12 @@
 
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
-    int size = sizeof(arr) / sizeof(int);
-    for (int i = 0; i <= size; i++) {
+    int size;
+    for(int i = 0; i <=5; i++) 
+    {
         printf("%d ", arr[i]);
     }
-    printf("\n");
+    size = sizeof(arr)/sizeof(int);
+    printf("\n size %d", size);
     return 0;
 }
